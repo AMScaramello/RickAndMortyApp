@@ -1,0 +1,86 @@
+.div{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(78, 77, 74, .9);
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 5px black;
+    border: 5px solid #94ba65;
+    height: 500px;
+    width: 450px;
+}
+
+.logo{
+    display: block;
+    width: 350px;
+    align-self: center;
+}
+
+.label{
+    display: block;
+    font-family: 'Tilt Warp', cursive;
+    font-size: 19px;
+    color: #94ba65;
+    -webkit-text-stroke: .5px black;
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 5px;
+}
+
+.input{
+    text-decoration: none;
+    background-color: #94ba65;
+    font-family: 'Tilt Warp', cursive;
+    color: black;
+    border-radius: 50px;
+    height: 30px;
+    width: 300px;
+    box-shadow: 2px 2px 10px 0px black;
+    text-align: center;
+    background-clip: padding-box;
+}
+
+.input:hover {
+    transform: scale(1.05) ;
+    -webkit-transform: scale(1.05) ;
+    -moz-transform: scale(1.05) ;
+}
+
+.errors{
+    font-size: 16px;
+    color: red;
+    font-family: 'Tilt Warp', cursive;
+    -webkit-text-stroke: .5px black;
+    text-shadow: 1px 1px 2px black;
+}
+
+.submit{
+    background-color: #94ba65;
+    font-family: 'Tilt Warp', cursive;
+    font-size: 20px;
+    color: #40b5cb;
+    -webkit-text-stroke: .9px black;
+    text-shadow: 1px 1px 2px black;
+    border-radius: 50px;
+    height: 30px;
+    box-shadow: 2px 2px 10px 0px black;
+    align-self: center;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    transform: scale(1.1) ;
+    -webkit-transform: scale(1.1) ;
+    -moz-transform: scale(1.1) ;
+}
+
+
